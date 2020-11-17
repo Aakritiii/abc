@@ -1,5 +1,5 @@
 <?php
-
+echo "hi"; 
 set_include_path(get_include_path().PATH_SEPARATOR.'./'); //add current directory as to include path
 
 spl_autoload_register(function ($class_name) {
